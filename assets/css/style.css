@@ -3816,6 +3816,16 @@ svg {
   clear: both;
 }
 
+.intrinsic-2x1 {
+  position: relative;
+  padding-bottom: 50%;
+}
+
+.intrinsic-1x1 {
+  position: relative;
+  padding-bottom: 100%;
+}
+
 @media (min-width: 420px) {
   .sm\:list-reset {
     list-style: none;
@@ -6325,6 +6335,16 @@ svg {
   .sm\:hover\:transform-scale-90:hover {
     -webkit-transform: scale(.9);
     transform: scale(.9);
+  }
+
+  .sm\:intrinsic-2x1 {
+    position: relative;
+    padding-bottom: 50%;
+  }
+
+  .sm\:intrinsic-1x1 {
+    position: relative;
+    padding-bottom: 100%;
   }
 }
 
@@ -8838,6 +8858,16 @@ svg {
     -webkit-transform: scale(.9);
     transform: scale(.9);
   }
+
+  .md\:intrinsic-2x1 {
+    position: relative;
+    padding-bottom: 50%;
+  }
+
+  .md\:intrinsic-1x1 {
+    position: relative;
+    padding-bottom: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -11349,6 +11379,16 @@ svg {
   .\<lg\:hover\:transform-scale-90:hover {
     -webkit-transform: scale(.9);
     transform: scale(.9);
+  }
+
+  .\<lg\:intrinsic-2x1 {
+    position: relative;
+    padding-bottom: 50%;
+  }
+
+  .\<lg\:intrinsic-1x1 {
+    position: relative;
+    padding-bottom: 100%;
   }
 }
 
@@ -13862,6 +13902,16 @@ svg {
     -webkit-transform: scale(.9);
     transform: scale(.9);
   }
+
+  .lg\:intrinsic-2x1 {
+    position: relative;
+    padding-bottom: 50%;
+  }
+
+  .lg\:intrinsic-1x1 {
+    position: relative;
+    padding-bottom: 100%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -16373,5 +16423,15 @@ svg {
   .xl\:hover\:transform-scale-90:hover {
     -webkit-transform: scale(.9);
     transform: scale(.9);
+  }
+
+  .xl\:intrinsic-2x1 {
+    position: relative;
+    padding-bottom: 50%;
+  }
+
+  .xl\:intrinsic-1x1 {
+    position: relative;
+    padding-bottom: 100%;
   }
 }
